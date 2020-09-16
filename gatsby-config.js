@@ -5,7 +5,7 @@ module.exports = {
     description: `I showcase my expertice in this website`,
     siteUrl: `https://ibaslogic.com`,
     siteName: `Ibaslogic`,
-    giHubPostBaseURL: `https://github.com/Ibaslogic/Ibaslogic/blob/master/src/`,
+    giHubPostBaseURL: `https://github.com/Ibaslogic/gatsby-site-agency/tree/master/src/contents/blog/`,
     menuLinks: [
       { name: `blog`, title: `Blog`, url: `` },
       {
