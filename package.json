@@ -1,25 +1,40 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-theme-agency",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple business site to showcase your product and services",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ibas Majid <ibas@ibaslogic.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.34",
     "gatsby": "^2.19.7",
+    "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-nprogress": "^2.3.10",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-sharp": "^2.6.27",
+    "gatsby-remark-images": "^3.3.25",
     "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-remark": "^2.8.28",
     "gatsby-transformer-sharp": "^2.3.13",
+    "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.10.0",
+    "react-intersection-observer": "^8.28.2",
+    "react-spring": "^8.0.27",
+    "typewriter-effect": "^2.13.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "babel-jest": "^26.3.0",
+    "babel-preset-gatsby": "^0.5.9",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.4.2",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1"
   },
   "keywords": [
     "gatsby"
@@ -32,7 +47,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
