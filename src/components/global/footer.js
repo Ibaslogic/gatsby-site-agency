@@ -3,7 +3,7 @@ import { jsx } from "@emotion/core"
 import Consult from "../footerConsult/consult"
 import Services from "../footerServicesList/services"
 import FindUs from "../footerFindUs/findUs"
-import FooterBottom from "../FooterBottomLayer/footerBottom"
+import FooterBottom from "../footerBottomLayer/footerBottom"
 import styles from "./footer.css"
 
 const Footer = () => {

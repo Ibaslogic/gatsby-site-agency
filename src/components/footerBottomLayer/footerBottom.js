@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core"
-import { useSocialData } from "../../hooks/use-social-data"
+import { useStaticQuery, graphql } from "gatsby"
 
 import {
   FaFacebookSquare,
@@ -15,7 +15,22 @@ import {
 import styles from "./footerBottom.css"
 
 const FooterBottom = () => {
-  const { social } = useSocialData()
+  const data = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            social {
+              name
+              link
+            }
+          }
+        }
+      }
+    `
+  )
+
+  const { social } = data.site.siteMetadata
 
   return (
     <div css={styles.container}>
