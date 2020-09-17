@@ -33,8 +33,11 @@ const styles = {
     align-items: center;
     justify-content: center;
     max-width: ${theme.maxWidth};
-    margin: 0 auto;
+    margin: -56px auto 0;
     text-align: center;
+    ${mQ768px} {
+      margin-top: 0;
+    }
 
     h1 {
       font-size: 2rem;
