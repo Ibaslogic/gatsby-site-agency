@@ -40,7 +40,7 @@ You should see the gatsby site in your browser address bar at [http://localhost:
 
 ## Need help?
 
-If you are still struggling with React and Gatsby, I advise you to [cover this React tutorial from scratch](https://ibaslogic.com/react-tutorial-for-beginners/). After that, you can go ahead and [read this practical guide to learning Gatsby](https://ibaslogic.com/gatsby-tutorial-from-scratch-for-beginners/).
+If you are still struggling with React and/or Gatsby, I advise you to [cover this React tutorial from scratch](https://ibaslogic.com/react-tutorial-for-beginners/). After that, you can go ahead and [read this practical guide to learning Gatsby](https://ibaslogic.com/gatsby-tutorial-from-scratch-for-beginners/).
 
 Once you've covered that, you can modify any Gatsby site and deploy on the web.
 
