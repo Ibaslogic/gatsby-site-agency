@@ -4,14 +4,14 @@ module.exports = {
       resolve: `@ibas/gatsby-theme-agency`,
       options: {
         blogBasePath: `/blog`, // indicate "/blog" if you want posts URL as "/blog/my-post" or leave empty if you wany "/my-post"
-        blogPostPath: `src/contents/blog`,
-        testimonialPath: `src/contents/testimonial`,
-        servicesPostPath: `src/contents/services`,
+        blogPostPath: `contents/blog`,
+        testimonialPath: `contents/testimonial`,
+        servicesPostPath: `contents/services`,
         title: `Business!`, // will be the site title
         description: `I showcase my expertice in this website!`,
         siteUrl: `https://ibaslogic.com`,
         siteName: `Ibaslogic!`,
-        giHubPostBaseURL: `https://github.com/Ibaslogic/gatsby-site-agency/tree/master/src/contents/blog/`,
+        giHubPostBaseURL: `https://github.com/Ibaslogic/gatsby-site-agency/tree/master/contents/blog/`,
         menuLinks: [
           { name: `blog`, title: `Blog`, url: `` },
           {
@@ -61,7 +61,7 @@ module.exports = {
               `The question is: Are you ready to talk about your project?!`,
               `Then, go ahead and get in touch!`,
             ],
-            homeHero: ``, //specify image file to change the default home hero image located in the src/images folder e.g home_hero_bg.jpg
+            homeHero: `home_hero.jpg`, //specify image file for the home page hero image and add in the images folder e.g home_hero_bg.jpg
           },
           ourClients: {
             heading: `Our Clients are awesome! Are you ready to join this amazing list?!`,
@@ -116,6 +116,7 @@ module.exports = {
         contactPage: {
           heading: `Let's talk about your project!`,
           subHeading: `Lorem ipsum dolor sit amet consectetur adipisicing elit spernatur eaque reprehenderit suscipit!`,
+          showContactForm: true, // Not hosting on netlify? set to false. Else, set to true and start receiving submissions in your Netlify site admin panel.
         },
       },
     },
