@@ -6,9 +6,14 @@
 
 <br />
 
-> **Please Note:** Look forward to the conversion of this Gatsby site to a reusable theme for your use. Keep in touch with me [@ibaslogic](https://twitter.com/ibaslogic) on Twitter for updates.
+![Twitter Follow](https://img.shields.io/twitter/follow/ibaslogic?style=social)
 
-### Want to use or play with the code?
+> **Please Note:** The code is also available as a reusable Gatsby theme. Take a look at the documentation:
+> [Gatsby theme agency documentation](https://github.com/Ibaslogic/gatsby-theme-agency).
+
+<br />
+
+Continue reading if you just want to work with a Gatsby starter project.
 
 ## 🚀 Quick start
 
@@ -40,7 +45,7 @@ You should see the gatsby site in your browser address bar at [http://localhost:
 
 ## Need help?
 
-If you are still struggling with React and Gatsby, I advise you to [cover this React tutorial from scratch](https://ibaslogic.com/react-tutorial-for-beginners/). After that, you can go ahead and [read this practical guide to learning Gatsby](https://ibaslogic.com/gatsby-tutorial-from-scratch-for-beginners/).
+If you are still struggling with React and/or Gatsby, I advise you to [cover this React tutorial from scratch](https://ibaslogic.com/react-tutorial-for-beginners/). After that, you can go ahead and [read this practical guide to learning Gatsby](https://ibaslogic.com/gatsby-tutorial-from-scratch-for-beginners/).
 
 Once you've covered that, you can modify any Gatsby site and deploy on the web.
 

@@ -10,7 +10,7 @@ const Consult = () => {
     query {
       site {
         siteMetadata {
-          homePage {
+          footerSection {
             consultation {
               heading
               subHeading
@@ -28,7 +28,7 @@ const Consult = () => {
     subHeading,
     buttonText,
     buttonTextLinkTo,
-  } = data.site.siteMetadata.homePage.consultation
+  } = data.site.siteMetadata.footerSection.consultation
 
   return (
     <div css={styles.content}>

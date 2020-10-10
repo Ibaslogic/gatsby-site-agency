@@ -37,6 +37,7 @@ const styles = {
     text-align: center;
     ${mQ768px} {
       margin-top: 0;
+      padding: 0 ${theme.plrls};
     }
 
     h1 {

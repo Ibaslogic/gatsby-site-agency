@@ -83,12 +83,6 @@ module.exports = {
         buttonText: `all testimonial`,
         buttonTextLinkTo: `/testimonials`,
       },
-      consultation: {
-        heading: `Need a consultation?`,
-        subHeading: `Then let's talk! We are here to provide you the best service.`,
-        buttonText: `contact us`,
-        buttonTextLinkTo: `/contact-us`,
-      },
     },
     servicesPage: {
       // single page
@@ -110,6 +104,15 @@ module.exports = {
     contactPage: {
       heading: `Let's talk about your project`,
       subHeading: `Lorem ipsum dolor sit amet consectetur adipisicing elit spernatur eaque reprehenderit suscipit.`,
+      showContactForm: true, // Not hosting on netlify? set to false. Else, set to true and start receiving submissions in your Netlify site admin panel.
+    },
+    footerSection: {
+      consultation: {
+        heading: `Need a consultation?`,
+        subHeading: `Then let's talk! We are here to provide you the best service.`,
+        buttonText: `contact us`,
+        buttonTextLinkTo: `/contact-us`,
+      },
     },
   },
   plugins: [
